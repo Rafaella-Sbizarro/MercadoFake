@@ -9,23 +9,46 @@
         android:orientation="vertical">
 
         <ImageView
-            android:scaleType="centerCrop"
             android:id="@+id/modImagemProduto"
             android:layout_width="200dp"
             android:layout_height="250dp"
+            android:scaleType="centerCrop"
             android:src="@drawable/sherlockholmes" />
 
 
         <TextView
-            android:fontFamily="@font/poppins_extrabolditalic"
-            android:layout_marginTop="5sp"
-            android:textAlignment="center"
-            android:textSize="15sp"
-            android:layout_gravity="center_horizontal"
             android:id="@+id/modTituloProduto"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Sherlock Holmes"/>
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="11sp"
+            android:fontFamily="@font/poppins_extrabolditalic"
+            android:text="Sherlock Holmes"
+            android:textAlignment="center"
+            android:textSize="15sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="250dp"
+            android:scaleType="centerInside"
+            android:src="@drawable/nuncaminta"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="11sp"
+            android:fontFamily="@font/poppins_extrabolditalic"
+            android:text="Nunca Minta"
+            android:textAlignment="center"
+            android:textSize="15sp"/>
+
     </LinearLayout>
 
 </androidx.cardview.widget.CardView>
